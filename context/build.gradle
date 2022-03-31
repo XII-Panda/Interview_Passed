@@ -1,0 +1,12 @@
+dependencies {
+
+}
+
+description "内容服务"
+
+
+task hello {
+    doLast {
+        println "${project.name}"
+    }
+}
